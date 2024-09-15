@@ -4,10 +4,12 @@ module.exports = {
   collectCovegare: true,
   collectCovegareFrom: [
     'src/**/*.ts(x)?',
-    '!src/appp/**',
+    '!src/app/**',
     '!src/lib/registry.tsx',
     '!src/types/**',
-    '!src/styles/**'
+    '!src/styles/**',
+    '!src/**/stories.tsx',
+    '!generators/*.ts(x)?'
   ],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
   modulesPaths: ['<rootDir>/src/'],
