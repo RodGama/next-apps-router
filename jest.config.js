@@ -1,8 +1,8 @@
 module.exports = {
   testEnvironment: 'jsdom',
   testPathIgnorePatterns: ['/node_modules', '/.next'],
-  collectCovegare: true,
-  collectCovegareFrom: [
+  collectCoverage: true,
+  collectCoverageFrom: [
     'src/**/*.ts(x)?',
     '!src/app/**',
     '!src/lib/registry.tsx',
